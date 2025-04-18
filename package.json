@@ -1,27 +1,21 @@
 {
-  "name": "server",
+  "name": "studiomedico-backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/massimo76/studiomedico-backend.git"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "massimo76",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/massimo76/studiomedico-backend/issues"
-  },
-  "homepage": "https://github.com/massimo76/studiomedico-backend#readme",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "helmet": "^8.1.0",
-    "mongoose": "^8.13.2"
+    "express": "^4.18.2",
+    "helmet": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
